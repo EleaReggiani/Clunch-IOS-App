@@ -8,14 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		E2524953219B347F00095BB7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2524952219B347F00095BB7 /* AppDelegate.swift */; };
-		E2524955219B347F00095BB7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2524954219B347F00095BB7 /* ViewController.swift */; };
+		E2524955219B347F00095BB7 /* ConnexionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2524954219B347F00095BB7 /* ConnexionViewController.swift */; };
 		E2524958219B347F00095BB7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2524956219B347F00095BB7 /* Main.storyboard */; };
 		E252495B219B347F00095BB7 /* clunchbox.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E2524959219B347F00095BB7 /* clunchbox.xcdatamodeld */; };
 		E252495D219B348200095BB7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E252495C219B348200095BB7 /* Assets.xcassets */; };
 		E2524960219B348200095BB7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E252495E219B348200095BB7 /* LaunchScreen.storyboard */; };
 		E252496B219B348200095BB7 /* clunchboxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E252496A219B348200095BB7 /* clunchboxTests.swift */; };
 		E2524976219B348200095BB7 /* clunchboxUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2524975219B348200095BB7 /* clunchboxUITests.swift */; };
-		E271C66821C52C52006A2B4F /* ConnexionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E271C66721C52C52006A2B4F /* ConnexionViewController.swift */; };
 		E271C66B21C52D01006A2B4F /* CalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E271C66A21C52D01006A2B4F /* CalendarViewController.swift */; };
 		E271C67221C52E8A006A2B4F /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E271C67121C52E8A006A2B4F /* HomeViewController.swift */; };
 		E271C67421C52E9C006A2B4F /* MessagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E271C67321C52E9C006A2B4F /* MessagesViewController.swift */; };
@@ -49,7 +48,7 @@
 		AA25E178D175713D3BD95F44 /* Pods-clunchbox.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-clunchbox.debug.xcconfig"; path = "Pods/Target Support Files/Pods-clunchbox/Pods-clunchbox.debug.xcconfig"; sourceTree = "<group>"; };
 		E252494F219B347F00095BB7 /* clunchbox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = clunchbox.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2524952219B347F00095BB7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E2524954219B347F00095BB7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E2524954219B347F00095BB7 /* ConnexionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnexionViewController.swift; sourceTree = "<group>"; };
 		E2524957219B347F00095BB7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E252495A219B347F00095BB7 /* clunchbox.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = clunchbox.xcdatamodel; sourceTree = "<group>"; };
 		E252495C219B348200095BB7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -61,7 +60,6 @@
 		E2524971219B348200095BB7 /* clunchboxUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = clunchboxUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2524975219B348200095BB7 /* clunchboxUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = clunchboxUITests.swift; sourceTree = "<group>"; };
 		E2524977219B348200095BB7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E271C66721C52C52006A2B4F /* ConnexionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnexionViewController.swift; sourceTree = "<group>"; };
 		E271C66A21C52D01006A2B4F /* CalendarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarViewController.swift; sourceTree = "<group>"; };
 		E271C67121C52E8A006A2B4F /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		E271C67321C52E9C006A2B4F /* MessagesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesViewController.swift; sourceTree = "<group>"; };
@@ -185,7 +183,6 @@
 		E2524988219C1BB800095BB7 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
-				E2524954219B347F00095BB7 /* ViewController.swift */,
 				E271C66921C52CB1006A2B4F /* Connexion-Inscription */,
 				E2524952219B347F00095BB7 /* AppDelegate.swift */,
 				E2524956219B347F00095BB7 /* Main.storyboard */,
@@ -197,7 +194,7 @@
 		E271C66921C52CB1006A2B4F /* Connexion-Inscription */ = {
 			isa = PBXGroup;
 			children = (
-				E271C66721C52C52006A2B4F /* ConnexionViewController.swift */,
+				E2524954219B347F00095BB7 /* ConnexionViewController.swift */,
 				E271C67721C52F67006A2B4F /* InscriptionViewController.swift */,
 			);
 			path = "Connexion-Inscription";
@@ -421,8 +418,7 @@
 				E271C67621C52EA9006A2B4F /* RecipesViewController.swift in Sources */,
 				E271C66B21C52D01006A2B4F /* CalendarViewController.swift in Sources */,
 				E271C67421C52E9C006A2B4F /* MessagesViewController.swift in Sources */,
-				E271C66821C52C52006A2B4F /* ConnexionViewController.swift in Sources */,
-				E2524955219B347F00095BB7 /* ViewController.swift in Sources */,
+				E2524955219B347F00095BB7 /* ConnexionViewController.swift in Sources */,
 				E271C67821C52F67006A2B4F /* InscriptionViewController.swift in Sources */,
 				E252495B219B347F00095BB7 /* clunchbox.xcdatamodeld in Sources */,
 				E2524953219B347F00095BB7 /* AppDelegate.swift in Sources */,
