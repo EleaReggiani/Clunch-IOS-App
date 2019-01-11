@@ -21,6 +21,8 @@
 		E271C67621C52EA9006A2B4F /* RecipesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E271C67521C52EA9006A2B4F /* RecipesViewController.swift */; };
 		E271C67821C52F67006A2B4F /* InscriptionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E271C67721C52F67006A2B4F /* InscriptionViewController.swift */; };
 		E271C67A21C573B9006A2B4F /* CalendarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E271C67921C573B9006A2B4F /* CalendarCell.swift */; };
+		E27606C121E2310D00AD6404 /* ClunchEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = E27606C021E2310D00AD6404 /* ClunchEvent.swift */; };
+		E27606C321E233D600AD6404 /* TestVCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E27606C221E233D600AD6404 /* TestVCViewController.swift */; };
 		E945FF0AA71C5CC9022E6C62 /* Pods_clunchbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5268C19F19AAA46E91257000 /* Pods_clunchbox.framework */; };
 /* End PBXBuildFile section */
 
@@ -67,6 +69,8 @@
 		E271C67521C52EA9006A2B4F /* RecipesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipesViewController.swift; sourceTree = "<group>"; };
 		E271C67721C52F67006A2B4F /* InscriptionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InscriptionViewController.swift; sourceTree = "<group>"; };
 		E271C67921C573B9006A2B4F /* CalendarCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarCell.swift; sourceTree = "<group>"; };
+		E27606C021E2310D00AD6404 /* ClunchEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClunchEvent.swift; sourceTree = "<group>"; };
+		E27606C221E233D600AD6404 /* TestVCViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestVCViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -166,18 +170,20 @@
 			path = clunchboxUITests;
 			sourceTree = "<group>";
 		};
-		E2524985219C1B7000095BB7 /* Extension */ = {
+		E2524985219C1B7000095BB7 /* GenericClasses */ = {
 			isa = PBXGroup;
 			children = (
+				E27606C021E2310D00AD6404 /* ClunchEvent.swift */,
+				E27606C221E233D600AD6404 /* TestVCViewController.swift */,
 			);
-			path = Extension;
+			path = GenericClasses;
 			sourceTree = "<group>";
 		};
 		E2524987219C1B9300095BB7 /* Core */ = {
 			isa = PBXGroup;
 			children = (
 				E2524988219C1BB800095BB7 /* ViewController */,
-				E2524985219C1B7000095BB7 /* Extension */,
+				E2524985219C1B7000095BB7 /* GenericClasses */,
 			);
 			path = Core;
 			sourceTree = "<group>";
@@ -427,6 +433,8 @@
 				E252495B219B347F00095BB7 /* clunchbox.xcdatamodeld in Sources */,
 				E2524953219B347F00095BB7 /* AppDelegate.swift in Sources */,
 				E271C67221C52E8A006A2B4F /* HomeViewController.swift in Sources */,
+				E27606C121E2310D00AD6404 /* ClunchEvent.swift in Sources */,
+				E27606C321E233D600AD6404 /* TestVCViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
