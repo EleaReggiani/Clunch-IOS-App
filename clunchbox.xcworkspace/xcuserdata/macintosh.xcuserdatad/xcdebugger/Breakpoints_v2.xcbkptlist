@@ -10,13 +10,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "clunchbox/Core/ViewController/TabBar/Calendar/CalendarViewController.swift"
-            timestampString = "567552456.874984"
+            timestampString = "570387516.993524"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "69"
-            endingLineNumber = "69"
-            landmarkName = "calendar(_:cellForItemAt:cellState:indexPath:)"
-            landmarkType = "7">
+            startingLineNumber = "98"
+            endingLineNumber = "98">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -26,13 +24,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "clunchbox/Core/ViewController/TabBar/Calendar/CalendarViewController.swift"
-            timestampString = "567552456.920705"
+            timestampString = "570387516.993914"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "55"
-            endingLineNumber = "55"
-            landmarkName = "configureCalendar(_:)"
-            landmarkType = "7">
+            startingLineNumber = "98"
+            endingLineNumber = "98">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -42,13 +38,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "clunchbox/Core/ViewController/TabBar/Calendar/CalendarViewController.swift"
-            timestampString = "567552456.921205"
+            timestampString = "570387516.9941601"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "49"
-            endingLineNumber = "49"
-            landmarkName = "calendar(_:willDisplay:forItemAt:cellState:indexPath:)"
-            landmarkType = "7">
+            startingLineNumber = "98"
+            endingLineNumber = "98">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

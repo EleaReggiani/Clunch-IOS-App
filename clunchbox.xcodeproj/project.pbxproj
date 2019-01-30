@@ -23,6 +23,7 @@
 		E271C67A21C573B9006A2B4F /* CalendarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E271C67921C573B9006A2B4F /* CalendarCell.swift */; };
 		E27606C121E2310D00AD6404 /* ClunchEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = E27606C021E2310D00AD6404 /* ClunchEvent.swift */; };
 		E27606C321E233D600AD6404 /* TestVCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E27606C221E233D600AD6404 /* TestVCViewController.swift */; };
+		E2B414AB220056B800F12B6D /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2B414AA220056B800F12B6D /* Event.swift */; };
 		E945FF0AA71C5CC9022E6C62 /* Pods_clunchbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5268C19F19AAA46E91257000 /* Pods_clunchbox.framework */; };
 /* End PBXBuildFile section */
 
@@ -71,6 +72,7 @@
 		E271C67921C573B9006A2B4F /* CalendarCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarCell.swift; sourceTree = "<group>"; };
 		E27606C021E2310D00AD6404 /* ClunchEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClunchEvent.swift; sourceTree = "<group>"; };
 		E27606C221E233D600AD6404 /* TestVCViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestVCViewController.swift; sourceTree = "<group>"; };
+		E2B414AA220056B800F12B6D /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -143,7 +145,12 @@
 		E2524951219B347F00095BB7 /* clunchbox */ = {
 			isa = PBXGroup;
 			children = (
-				E2524987219C1B9300095BB7 /* Core */,
+				E2B414A921FF6DE300F12B6D /* Models */,
+				E2B414A721FF6DC300F12B6D /* Utils */,
+				E2B414A621FF6DAD00F12B6D /* Views */,
+				E2B414A521FF6D5C00F12B6D /* Controllers */,
+				E2524952219B347F00095BB7 /* AppDelegate.swift */,
+				E2524956219B347F00095BB7 /* Main.storyboard */,
 				E252495C219B348200095BB7 /* Assets.xcassets */,
 				E252495E219B348200095BB7 /* LaunchScreen.storyboard */,
 				E2524961219B348200095BB7 /* Info.plist */,
@@ -170,35 +177,6 @@
 			path = clunchboxUITests;
 			sourceTree = "<group>";
 		};
-		E2524985219C1B7000095BB7 /* GenericClasses */ = {
-			isa = PBXGroup;
-			children = (
-				E27606C021E2310D00AD6404 /* ClunchEvent.swift */,
-				E27606C221E233D600AD6404 /* TestVCViewController.swift */,
-			);
-			path = GenericClasses;
-			sourceTree = "<group>";
-		};
-		E2524987219C1B9300095BB7 /* Core */ = {
-			isa = PBXGroup;
-			children = (
-				E2524988219C1BB800095BB7 /* ViewController */,
-				E2524985219C1B7000095BB7 /* GenericClasses */,
-			);
-			path = Core;
-			sourceTree = "<group>";
-		};
-		E2524988219C1BB800095BB7 /* ViewController */ = {
-			isa = PBXGroup;
-			children = (
-				E271C66921C52CB1006A2B4F /* Connexion-Inscription */,
-				E2524952219B347F00095BB7 /* AppDelegate.swift */,
-				E2524956219B347F00095BB7 /* Main.storyboard */,
-				E271C66D21C52DE0006A2B4F /* TabBar */,
-			);
-			path = ViewController;
-			sourceTree = "<group>";
-		};
 		E271C66921C52CB1006A2B4F /* Connexion-Inscription */ = {
 			isa = PBXGroup;
 			children = (
@@ -212,20 +190,8 @@
 			isa = PBXGroup;
 			children = (
 				E271C66A21C52D01006A2B4F /* CalendarViewController.swift */,
-				E271C67921C573B9006A2B4F /* CalendarCell.swift */,
 			);
 			path = Calendar;
-			sourceTree = "<group>";
-		};
-		E271C66D21C52DE0006A2B4F /* TabBar */ = {
-			isa = PBXGroup;
-			children = (
-				E271C67021C52E20006A2B4F /* Home */,
-				E271C66F21C52E11006A2B4F /* Messages */,
-				E271C66E21C52DF5006A2B4F /* Recipes */,
-				E271C66C21C52D31006A2B4F /* Calendar */,
-			);
-			path = TabBar;
 			sourceTree = "<group>";
 		};
 		E271C66E21C52DF5006A2B4F /* Recipes */ = {
@@ -250,6 +216,43 @@
 				E271C67121C52E8A006A2B4F /* HomeViewController.swift */,
 			);
 			path = Home;
+			sourceTree = "<group>";
+		};
+		E2B414A521FF6D5C00F12B6D /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				E271C66C21C52D31006A2B4F /* Calendar */,
+				E271C66E21C52DF5006A2B4F /* Recipes */,
+				E271C66F21C52E11006A2B4F /* Messages */,
+				E271C67021C52E20006A2B4F /* Home */,
+				E271C66921C52CB1006A2B4F /* Connexion-Inscription */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		E2B414A621FF6DAD00F12B6D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E271C67921C573B9006A2B4F /* CalendarCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E2B414A721FF6DC300F12B6D /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				E27606C021E2310D00AD6404 /* ClunchEvent.swift */,
+				E27606C221E233D600AD6404 /* TestVCViewController.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		E2B414A921FF6DE300F12B6D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E2B414AA220056B800F12B6D /* Event.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -428,6 +431,7 @@
 				E271C66B21C52D01006A2B4F /* CalendarViewController.swift in Sources */,
 				E271C67421C52E9C006A2B4F /* MessagesViewController.swift in Sources */,
 				E2524955219B347F00095BB7 /* ConnexionViewController.swift in Sources */,
+				E2B414AB220056B800F12B6D /* Event.swift in Sources */,
 				E271C67A21C573B9006A2B4F /* CalendarCell.swift in Sources */,
 				E271C67821C52F67006A2B4F /* InscriptionViewController.swift in Sources */,
 				E252495B219B347F00095BB7 /* clunchbox.xcdatamodeld in Sources */,
